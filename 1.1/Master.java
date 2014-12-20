@@ -4,8 +4,8 @@ import test1.Smen;
 
 class Master
 {
-private String name; // Название мастерской
-private String adress; // Адрес мастерской
+private String name; 
+private String adress; 
 private Smen[] smen;
 
 public Master(String name, String adress, Smen[] smens) {
@@ -71,7 +71,7 @@ public static void main(String[] arg)
 			new Smen(3, "Third"),
 			new Smen(5, "Fouth")};
 	
-	Master master = new Master("Colos", "ул. Лермонтова 14", smen);
+	Master master = new Master("Colos", "st. Watsons 14", smen);
 			
 	System.out.println("The lenhgt of name is " + master.testWord());
 	System.out.println("The repair comp is " + master.maxComp());
